@@ -1,6 +1,6 @@
 # mkxp-z
 
-This is a fork of mkxp and mkxp-z that is intended to run the game Daath Origins. It's not necessarily intended to be a byte-for-byte copy of RGSS though, so non-standard extensions and optional enhancements can/will be written for fangame developers (you poor souls) to take advantage of.
+This is a fork of mkxp and mkxp-z that is intended to run the game Daath Origins. It's not necessarily intended to be a byte-for-byte copy of RGSS though, so non-standard extensions and optional enhancements can be written to take advantage of.
 
 ## Bindings
 Bindings provide the glue code for an interpreted language environment to run game scripts in. mkxp-z focuses on Ruby 1.8 and as such the mruby and null bindings are not included. The original MRI bindings remain for the time being, with the possible intent of working with >=1.9 to better support RGSS3. Please see the original README for more details.
