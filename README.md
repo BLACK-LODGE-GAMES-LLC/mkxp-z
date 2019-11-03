@@ -1,13 +1,6 @@
 # mkxp-z
 
-
-![GitHub commits since latest release](https://img.shields.io/github/commits-since/inori-z/mkxp-z/latest?style=for-the-badge)
-![built with resentment](https://img.shields.io/badge/built_with-resentment-d55c32?style=for-the-badge)
-![Made for dark types](https://img.shields.io/badge/made_for-dark_types-71584a?style=for-the-badge)
-
-![ss](/screenshot.png?raw=true)
-
-This is a fork of mkxp that is intended to run and alleviate the difficulty of porting games based on Pokemon Essentials. It's not necessarily intended to be a byte-for-byte copy of RGSS though, so non-standard extensions and optional enhancements can/will be written for fangame developers (you poor souls) to take advantage of.
+This is a fork of mkxp and mkxp-z that is intended to run the game Daath Origins. It's not necessarily intended to be a byte-for-byte copy of RGSS though, so non-standard extensions and optional enhancements can/will be written for fangame developers (you poor souls) to take advantage of.
 
 ## Bindings
 Bindings provide the glue code for an interpreted language environment to run game scripts in. mkxp-z focuses on Ruby 1.8 and as such the mruby and null bindings are not included. The original MRI bindings remain for the time being, with the possible intent of working with >=1.9 to better support RGSS3. Please see the original README for more details.
