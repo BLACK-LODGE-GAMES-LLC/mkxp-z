@@ -298,10 +298,10 @@ static std::string baseName(const std::string &path)
 static void setupScreenSize(Config &conf)
 {
 	if (conf.defScreenW <= 0)
-		conf.defScreenW = (conf.rgssVersion == 1 ? 640 : 544);
+		conf.defScreenW = (conf.rgssVersion == 1 ? 1920 : 544);
 
 	if (conf.defScreenH <= 0)
-		conf.defScreenH = (conf.rgssVersion == 1 ? 480 : 416);
+		conf.defScreenH = (conf.rgssVersion == 1 ? 1080 : 416);
 }
 
 void Config::readGameINI()
@@ -414,7 +414,7 @@ void Config::readGameINI()
     
 	if (game.title.empty())
     {
-        game.title = "mkxp-z";
+        game.title = "Daath Origins";
     }
     else
     {

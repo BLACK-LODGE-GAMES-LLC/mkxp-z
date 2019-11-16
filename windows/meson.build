@@ -2,7 +2,7 @@ win = import('windows')
 
 res = files(
 'resource.h',
-'icon.ico',
+'icon2.ico',
 'resource.rc'
 )
 
